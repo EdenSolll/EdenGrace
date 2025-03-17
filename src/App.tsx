@@ -1,16 +1,16 @@
 import { Route, Routes } from "react-router-dom";
-import DocsPage from "@/pages/docs";
+import ProjectPage from "@/pages/projects";
 import BlogPage from "@/pages/blog";
-import AboutPage from "@/pages/about";
+import Resumepage from "@/pages/resume";
 import HomePage from "@/pages/home";
 
 function App() {
   return (
     <Routes>
       <Route element={<HomePage />} path="/" />
-      <Route element={<DocsPage />} path="/docs" />
+      <Route element={<ProjectPage />} path="/projects" />
       <Route element={<BlogPage />} path="/blog" />
-      <Route element={<AboutPage />} path="/about" />
+      <Route element={<Resumepage />} path="/resume" />
     </Routes>
   );
 }

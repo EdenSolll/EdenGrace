@@ -9,20 +9,16 @@ export const siteConfig = {
       href: "/",
     },
     {
-      label: "Docs",
-      href: "/docs",
-    },
-    {
-      label: "Pricing",
-      href: "/pricing",
+      label: "Projects",
+      href: "/projects",
     },
     {
       label: "Blog",
       href: "/blog",
     },
     {
-      label: "About",
-      href: "/about",
+      label: "Resume",
+      href: "/resume",
     },
   ],
   navMenuItems: [
@@ -62,7 +58,5 @@ export const siteConfig = {
   links: {
     github: "https://github.com/EdenSolll",
     linkedin: "https://www.linkedin.com/in/eden-grace",
-    docs: "https://nextui.org",
-    sponsor: "https://patreon.com/jrgarciadev",
   },
 };
